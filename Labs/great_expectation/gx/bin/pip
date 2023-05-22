@@ -1,0 +1,8 @@
+#!/Users/uddhavzambare/Northeastern/Big_Data_Analytics_and_Intelligent_Systems/DAMG7245-Big_Data_Systems_and_Intelligence_Analytics/Labs/gx/gx/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
-# user defined
+## User defined
 git_demo/demo_venv
-.DS_Store
+.DS_STORE
+gx/gx
